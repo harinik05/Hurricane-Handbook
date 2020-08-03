@@ -1,29 +1,30 @@
 # Hurricane-Handbook
-Great Hurricane of 1780 stole many lives and left the economy in vein. This mobile application focuses on acting as a guide book of safety and rescuing lives by providing advice and stages of preparation. 
+This mobile application called "Hurricane Handbook" was created to act as a survival guide for the Great Hurricane of 1780. More information about the app could be found on devpost.
 
-## Inspiration
-My inspiration towards this app was the fact that millions of lives were lost unnecessarily before advanced technology existed to guide individuals. I wanted to build this app that could have potentially changed the past event. KNOWLEDGE is the key to success and living a peaceful life as it provides a hand in most situations. In this catastrophic storm, people didn't plan ahead and struggled to survive. If technology was more advanced back then, it would have acted as a pillar for their future. 
+##STEP 1: Homescreen
+The first step of this project was to create a functioning home screen. The purpose of this page is to attract the attention of the user and provide an insight of app. A picture of hurricane with title text indicating the app name and motto was incorporated to act as an eye opener. Moreover, square-like buttons with ribbons indicating the labels were added to the home page. These buttons are added from TouchableOpacity library of react native. They include: preparation materials, house-proofing, evacuation plan, map routes, relax, and last minute plan. 
 
-## What it does
-This mobile application provides information and stages of hurricane evacuation. The home page contains the entire process which consists of preparing materials, sealing your home, planning evacuation, abandoning home, and staying safe at shelter. 
+##STEP 2: Materials Preparation
+This button navigates to a page filled with materials to pack before hurricane. There are images of the supplies taken from amazon and leading to the amazon website. This way, the user can purchase the product if they don't already have it. 
 
-## How I built it
-I built the application "Hurricane Handbook" using react native framework. I programmed in JavaScript using Visual Studio Code and simulated my results on Expo Client. 
+##STEP 3: House Protection
+This page of the application provides information on how to seal the windows, doors, and other parts of the house to prevent serious destruction. This section was made using Text and Image feature from react-native.
 
-## Challenges I ran into
-I was challenged by the mapView feature of react-native. I wanted to use MapBox which provides colorful themes and 3D-structures displayed by the coordinate markers. However, it was extremely difficult to incorporate the MapBox feature on Expo. Therefore, I had to end up utilising mapView.
+##STEP 4: Evacuation Plan
+This part of the application is composed of only a text feature wherin users can view and follow the steps one at a time. The addition to this page is a view map feature discussed in step 5. 
 
-## Accomplishments that I'm proud of
-I carry the pride of obtaining trustworthy information about how to safely evacuate before and during the hurricane. I was also able to design the buttons and other features aesthetically on my application.
+##STEP 5: Map Routes
+MapView feature of react-native was incorporated for this section. The map was zoomed to the region of Georgia, USA, and it contained the markers indicating the location of hotels and the average cost of living per day. 
 
-## What I learned
-I have created a couple of apps using react-native in the past. This is my first successful and working app that had allowed me to obtain in-depth analysis on how to build good apps to suffice user's needs.
+##STEP 6: Relax by Reading Under the Hurricane 
+This region contained some books categorized by ages to read during the stay. The features like Image and Text was used for this page. 
 
-## What's next for Hurricane Handbook
-Due to time constraint in hackathon, I wasn't able to expand my vision on the last minute stage. Giving hope and plenty of choices for the user during this rare stage will be an eye-opener to increasing amount of survivals and expansion of app's popularity. 
+##STEP 7: Too Late?
+The final button contained a three step plan for surviving during the hurricane. It gives a last minute plan for people who are stranded at unique situations. The Text feature was used for the page. 
 
-## Construction Time
-This app was built from July 31 to August 3. I mostly worked on it during midnight. This is built specifically for the BYTEHACKS 2020. 
 
-Check out more information about my project on Devpost:
-https://devpost.com/software/hurricane-handbook/joins/pxtaQJQ6E1IIc5chanqYxw
+
+
+
+  
+
