@@ -24,6 +24,14 @@ The final button contained a three step plan for surviving during the hurricane.
 
 ## Test my Product
 
+### Prerequisites
+1-Node JS
+2--React-Native
+3--React-Native Libraries (MapView)
+4--Expo Client App downloaded on device
+5--Camera app on simulating device
+6--Visual Studio Code 
+
 ### Getting Started
 1. Download Node JS using https://nodejs.org/en/
 2. To publish, package, and write code, enter this command:
