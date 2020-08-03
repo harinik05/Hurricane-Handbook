@@ -20,11 +20,23 @@ MapView feature of react-native was incorporated for this section. The map was z
 This region contained some books categorized by ages to read during the stay. The features like Image and Text was used for this page. 
 
 ## STEP 7: Too Late?
-The final button contained a three step plan for surviving during the hurricane. It gives a last minute plan for people who are stranded at unique situations. The Text feature was used for the page. 
+The final button contained a three step plan for surviving during the hurricane. It gives a last minute plan for people who are stranded at unique situations. The Text feature was used for the page.
 
+## Test my Product
 
-
-
-
+### Getting Started
+1. Download Node JS using https://nodejs.org/en/
+2. To publish, package, and write code, enter this command:
+npm install expo-cli --global
+3. Create a project  on react-native:
+  a.) expo init Hurricane-Handbook
+  b.) cd Hurricane-Handbook
+  c.) expo start
   
+  Expo start will display a QR code which needs to be scanned on your phone or i-pad camera and opened in the Expo Client App.
+4. Import the files from github to project created
 
+
+### Running the Simulation
+5. Save the files and scan the QR code to view simulation in expo
+6. The simulation will display the app logo and direct to homepage
